@@ -171,57 +171,57 @@
             "color": "#5b2333",
             "packs": [],
             "folders": [
-        {
-            "name": "Character Options",
-            "sorting": "a",
-            "color": "#7f3f98",
-            "packs": [
-                "classes",
-                "races",
-                "features",
-                "feats"
-            ],
-            "folders": []
-        },
-        {
-            "name": "Gear",
-            "sorting": "a",
-            "color": "#a8671c",
-            "packs": [
-                "weapons",
-                "armor",
-                "equipment"
-            ],
-            "folders": []
-        },
-        {
-            "name": "Magic",
-            "sorting": "a",
-            "color": "#2e6959",
-            "packs": [
-                "spells"
-            ],
-            "folders": []
-        },
-        {
-            "name": "Monsters",
-            "sorting": "a",
-            "color": "#8b1e2d",
-            "packs": [
-                "monsters-animals",
-                "monsters-barbarous",
-                "monsters-constructs",
-                "monsters-daemons",
-                "monsters-fairies",
-                "monsters-golems",
-                "monsters-humanoids",
-                "monsters-magitech",
-                "monsters-mythical-beasts",
-                "monsters-plants",
-                "monsters-undead"
-            ],
-            "folders": []
-        }
+                {
+                    "name": "Character Options",
+                    "sorting": "a",
+                    "color": "#7f3f98",
+                    "packs": [
+                        "classes",
+                        "races",
+                        "features",
+                        "feats"
+                    ],
+                    "folders": []
+                },
+                {
+                    "name": "Gear",
+                    "sorting": "a",
+                    "color": "#a8671c",
+                    "packs": [
+                        "weapons",
+                        "armor",
+                        "equipment"
+                    ],
+                    "folders": []
+                },
+                {
+                    "name": "Magic",
+                    "sorting": "a",
+                    "color": "#2e6959",
+                    "packs": [
+                        "spells"
+                    ],
+                    "folders": []
+                },
+                {
+                    "name": "Monsters",
+                    "sorting": "a",
+                    "color": "#8b1e2d",
+                    "packs": [
+                        "monsters-animals",
+                        "monsters-barbarous",
+                        "monsters-constructs",
+                        "monsters-daemons",
+                        "monsters-fairies",
+                        "monsters-golems",
+                        "monsters-humanoids",
+                        "monsters-magitech",
+                        "monsters-mythical-beasts",
+                        "monsters-plants",
+                        "monsters-undead"
+                    ],
+                    "folders": []
+                }
             ]
         }
     ]
