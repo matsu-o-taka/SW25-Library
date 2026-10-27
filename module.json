@@ -1,0 +1,228 @@
+{
+    "id": "sw25-library",
+    "title": "SW2.5 Library",
+    "description": "Community compendium library for the Sword World 2.5 system. Items and monsters are separated into type and monster-category packs, with folder organisation mirroring the source world.",
+    "version": "1.1.2",
+    "authors": [
+        {
+            "name": "O-Taka",
+            "url": "https://github.com/matsu-o-taka"
+        },
+        {
+            "name": "SW25 community",
+            "url": "https://sw25.wikidot.com"
+        }
+    ],
+    "compatibility": {
+        "minimum": "14",
+        "verified": "14.369"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "sword-world-25",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "0.14.20",
+                    "verified": "0.15.0"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "name": "spells",
+            "label": "SW25 - Spells",
+            "path": "packs/spells.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "weapons",
+            "label": "SW25 - Weapons",
+            "path": "packs/weapons.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "armor",
+            "label": "SW25 - Armor and Shields",
+            "path": "packs/armor.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "equipment",
+            "label": "SW25 - Equipment",
+            "path": "packs/equipment.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "features",
+            "label": "SW25 - Class Features",
+            "path": "packs/features.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "feats",
+            "label": "SW25 - Feats",
+            "path": "packs/feats.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "classes",
+            "label": "SW25 - Classes",
+            "path": "packs/classes.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "races",
+            "label": "SW25 - Races",
+            "path": "packs/races.db",
+            "type": "Item",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-animals",
+            "label": "SW25 · Monsters · Animals",
+            "path": "packs/monsters-animals.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-barbarous",
+            "label": "SW25 · Monsters · Barbarous",
+            "path": "packs/monsters-barbarous.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-constructs",
+            "label": "SW25 · Monsters · Constructs",
+            "path": "packs/monsters-constructs.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-daemons",
+            "label": "SW25 · Monsters · Daemons",
+            "path": "packs/monsters-daemons.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-fairies",
+            "label": "SW25 · Monsters · Fairies",
+            "path": "packs/monsters-fairies.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-golems",
+            "label": "SW25 · Monsters · Golems",
+            "path": "packs/monsters-golems.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-humanoids",
+            "label": "SW25 · Monsters · Humanoids",
+            "path": "packs/monsters-humanoids.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-magitech",
+            "label": "SW25 · Monsters · Magitech",
+            "path": "packs/monsters-magitech.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-mythical-beasts",
+            "label": "SW25 · Monsters · Mythical Beasts",
+            "path": "packs/monsters-mythical-beasts.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-plants",
+            "label": "SW25 · Monsters · Plants",
+            "path": "packs/monsters-plants.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        },
+        {
+            "name": "monsters-undead",
+            "label": "SW25 · Monsters · Undead",
+            "path": "packs/monsters-undead.db",
+            "type": "Actor",
+            "system": "sword-world-25"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Sword World 2.5 Library",
+            "sorting": "a",
+            "color": "#5b2333",
+            "packs": [],
+            "folders": [
+        {
+            "name": "Character Options",
+            "sorting": "a",
+            "color": "#7f3f98",
+            "packs": [
+                "classes",
+                "races",
+                "features",
+                "feats"
+            ],
+            "folders": []
+        },
+        {
+            "name": "Gear",
+            "sorting": "a",
+            "color": "#a8671c",
+            "packs": [
+                "weapons",
+                "armor",
+                "equipment"
+            ],
+            "folders": []
+        },
+        {
+            "name": "Magic",
+            "sorting": "a",
+            "color": "#2e6959",
+            "packs": [
+                "spells"
+            ],
+            "folders": []
+        },
+        {
+            "name": "Monsters",
+            "sorting": "a",
+            "color": "#8b1e2d",
+            "packs": [
+                "monsters-animals",
+                "monsters-barbarous",
+                "monsters-constructs",
+                "monsters-daemons",
+                "monsters-fairies",
+                "monsters-golems",
+                "monsters-humanoids",
+                "monsters-magitech",
+                "monsters-mythical-beasts",
+                "monsters-plants",
+                "monsters-undead"
+            ],
+            "folders": []
+        }
+            ]
+        }
+    ]
+}
