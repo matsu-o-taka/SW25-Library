@@ -224,5 +224,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "scripts": ["scripts/pack-folders.mjs"]
 }
