@@ -55,12 +55,7 @@ Inside each pack, documents are arranged in folders mirroring the source world l
 
 ## Regeneration of monster data (update v1.1.3)
 
-The 712 monster Actors in `packs/monsters-*.db` were regenerated from sw25.wikidot.com using `scripts/monster-generator.mjs` (vendored parser in `scripts/lib/monster-parser.mjs`). `_id`, name, type, image, token, folders, sort and flags are preserved; only `system` is replaced with freshly parsed wiki data. Every run applies quality gates (no combat-row loss, no level/monsterType regression) and emits a change report.
-
-Usage: `node scripts/monster-generator.mjs --all` or `--ids <file> [--dry-run] [--report <json>] [--report-md <md>]`.
-
-The Foundry leveldb mirrors under `packs/<name>/` are ignored via `.gitignore` (`packs/*/`); `module.json` references only the `.db` files.
-
+The 712 monster Actors in `packs/monsters-*.db` were regenerated from sw25.wikidot.com to preserve combat data.
 ---
 
 O-Taka
