@@ -1,0 +1,4 @@
+# Cachés de compendium nivel-Foundry (niveldb) autogeneradas junto a los packs .db.
+# module.json solo referencia los archivos .db (NeDB); Foundry (V12+) migra/usa las
+# carpetas packs/<nombre>/ automáticamente al cargar el módulo. No versionarlas.
+packs/*/
