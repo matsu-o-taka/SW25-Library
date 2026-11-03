@@ -2,7 +2,7 @@
     "id": "sw25-library",
     "title": "SW2.5 Library",
     "description": "Community compendium library for the Sword World 2.5 system. Items and monsters are separated into type and monster-category packs, with folder organisation mirroring the source world.",
-    "version": "1.1.3",
+    "version": "1.2.0",
     "authors": [
         {
             "name": "O-Taka",
@@ -33,133 +33,133 @@
         {
             "name": "spells",
             "label": "SW25 - Spells",
-            "path": "packs/spells.db",
+            "path": "packs/spells",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "weapons",
             "label": "SW25 - Weapons",
-            "path": "packs/weapons.db",
+            "path": "packs/weapons",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "armor",
             "label": "SW25 - Armor and Shields",
-            "path": "packs/armor.db",
+            "path": "packs/armor",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "equipment",
             "label": "SW25 - Equipment",
-            "path": "packs/equipment.db",
+            "path": "packs/equipment",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "features",
             "label": "SW25 - Class Features",
-            "path": "packs/features.db",
+            "path": "packs/features",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "feats",
             "label": "SW25 - Feats",
-            "path": "packs/feats.db",
+            "path": "packs/feats",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "classes",
             "label": "SW25 - Classes",
-            "path": "packs/classes.db",
+            "path": "packs/classes",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "races",
             "label": "SW25 - Races",
-            "path": "packs/races.db",
+            "path": "packs/races",
             "type": "Item",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-animals",
             "label": "SW25 · Monsters · Animals",
-            "path": "packs/monsters-animals.db",
+            "path": "packs/monsters-animals",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-barbarous",
             "label": "SW25 · Monsters · Barbarous",
-            "path": "packs/monsters-barbarous.db",
+            "path": "packs/monsters-barbarous",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-constructs",
             "label": "SW25 · Monsters · Constructs",
-            "path": "packs/monsters-constructs.db",
+            "path": "packs/monsters-constructs",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-daemons",
             "label": "SW25 · Monsters · Daemons",
-            "path": "packs/monsters-daemons.db",
+            "path": "packs/monsters-daemons",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-fairies",
             "label": "SW25 · Monsters · Fairies",
-            "path": "packs/monsters-fairies.db",
+            "path": "packs/monsters-fairies",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-golems",
             "label": "SW25 · Monsters · Golems",
-            "path": "packs/monsters-golems.db",
+            "path": "packs/monsters-golems",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-humanoids",
             "label": "SW25 · Monsters · Humanoids",
-            "path": "packs/monsters-humanoids.db",
+            "path": "packs/monsters-humanoids",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-magitech",
             "label": "SW25 · Monsters · Magitech",
-            "path": "packs/monsters-magitech.db",
+            "path": "packs/monsters-magitech",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-mythical-beasts",
             "label": "SW25 · Monsters · Mythical Beasts",
-            "path": "packs/monsters-mythical-beasts.db",
+            "path": "packs/monsters-mythical-beasts",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-plants",
             "label": "SW25 · Monsters · Plants",
-            "path": "packs/monsters-plants.db",
+            "path": "packs/monsters-plants",
             "type": "Actor",
             "system": "sword-world-25"
         },
         {
             "name": "monsters-undead",
             "label": "SW25 · Monsters · Undead",
-            "path": "packs/monsters-undead.db",
+            "path": "packs/monsters-undead",
             "type": "Actor",
             "system": "sword-world-25"
         }
