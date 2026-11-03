@@ -2,7 +2,7 @@
     "id": "sw25-library",
     "title": "SW2.5 Library",
     "description": "Community compendium library for the Sword World 2.5 system. Items and monsters are separated into type and monster-category packs, with folder organisation mirroring the source world.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "authors": [
         {
             "name": "O-Taka",
@@ -224,6 +224,5 @@
                 }
             ]
         }
-    ],
-    "scripts": ["scripts/pack-folders.mjs"]
+    ]
 }

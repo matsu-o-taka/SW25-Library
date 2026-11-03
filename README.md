@@ -53,19 +53,11 @@ Inside each pack, documents are arranged in folders mirroring the source world l
 - System: [Sword World 2.5 by Daedalus](https://github.com/DaedaIus/Sword-World-2.5-Foundry) and the [Taka fork](https://github.com/matsu-o-taka/Sword-World-2.5-Taka).
 - Sword World 2.5 is a tabletop RPG by Group SNE / Fujimi Shobo. This packaging is a non-commercial fan resource; please check the source wiki and the game's terms before redistributing.
 
-## Regeneration of monster data (update v1.1.3)
-
-The 712 monster Actors in `packs/monsters-*.db` were regenerated from sw25.wikidot.com using `scripts/monster-generator.mjs` (vendored parser in `scripts/lib/monster-parser.mjs`). `_id`, name, type, image, token, folders, sort and flags are preserved; only `system` is replaced with freshly parsed wiki data. Every run applies quality gates (no combat-row loss, no level/monsterType regression) and emits a change report.
-
-Usage: `node scripts/monster-generator.mjs --all` or `--ids <file> [--dry-run] [--report <json>] [--report-md <md>]`.
-
-The Foundry LevelDB pack directories under `packs/<name>/` are versioned in the repository (see `.gitattributes`); `module.json` references them extensionless (`packs/<name>`).
-
 ## Migration to LevelDB pack format (update v1.2.0)
 
-All 19 compendium packs are now distributed as Foundry V14 LevelDB directories (`packs/<name>/`) instead of NeDB `.db` files. `module.json` references packs extensionless; the `.db` files have been removed.
+All 19 compendium packs are distributed as Foundry V14 LevelDB directories (`packs/<name>/`) instead of NeDB `.db` files. `module.json` references packs extensionless; the `.db` files have been removed.
 
-The in-pack folder structures were rebuilt to mirror the source world layout without redundant root wrappers:
+The in-pack folder structures mirror the source world layout without redundant root wrappers:
 
 - **Items (spells, weapons, armor, equipment):** root category wrapper removed; category folders promoted to pack root. `Mounts` in Equipment preserved as a root folder.
 - **Spells:** 10 magic schools promoted to pack root; leaf folders renamed `Level N` → `Level 0N` (zero-padded).
@@ -75,6 +67,12 @@ The in-pack folder structures were rebuilt to mirror the source world layout wit
 - **Monsters (11 packs):** each pack reorganized into zero-padded `Level 00`–`Level NN` folders (max `Level 25` in mythical-beasts); every monster actor filed under its `system.level`.
 
 All 2,638 documents (1,926 items + 712 monsters) preserve their `_id`, name, system data, and content; only `folder` references changed. Document-level validation confirms zero content loss vs. the pre-migration `.db` files.
+
+## Cleanup of build tools (update v1.2.1)
+
+Import scripts and build tools (`scripts/monster-generator.mjs`, `scripts/migrate-fighting-styles.mjs`, `scripts/validate-migration.mjs`, `scripts/lib/monster-parser.mjs`, `scripts/lib/fetch-wiki.mjs`) have been removed from the distributed module. They are available in the external `sw25-library` development scripts folder for historical reference only.
+
+The module.json no longer references any scripts section.
 
 ---
 

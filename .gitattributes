@@ -1,0 +1,2 @@
+# Pack LevelDB directories are binary; avoid text diffs and unwanted merge conflicts.
+packs/** binary
