@@ -4,6 +4,7 @@
     "description": "Community compendium library for the Sword World 2.5 system. Items and monsters are separated into type and monster-category packs, with folder organisation mirroring the source world.",
     "version": "1.2.1",
     "manifest": "https://raw.githubusercontent.com/matsu-o-taka/SW25-Library/main/module.json",
+    "download": "https://github.com/matsu-o-taka/SW25-Library/releases/latest/download/sw25-library.zip",
     "authors": [
         {
             "name": "O-Taka",
